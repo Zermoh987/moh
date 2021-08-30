@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(43, 41, 41);
+    margin: 50px;
+}
+.container{
+    display: flex;
+    background-color: white;
+    bottom: none;
+}
+.container .left .image{
+    background-image: url("/photo.jpg");
+    background-size: cover;
+    width: 370px;
+    height: 443px;
+    position: absolute;
+    margin-top: 40px;
+}
+.text{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container .right{
+    margin-left: 70px;
+}
+.container .left{
+    margin-left: 70px;
+}
+input[type="button"]{
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 12px;
+    margin-left: 680px;
+    background-color: white;
+    cursor: pointer;
+}
+.right .h1{
+    font-size: 330px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 120px;
+}
+table{
+    margin-left: 600px;
+    display: inline-block;
+    border-spacing: 20px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.right .texts .titre{
+    font-size: 34px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 130px;
+}
+.right .texts .tes{
+    font-size: 18px;
+    margin-left: 130px;
+}
+.left .texto{
+    margin-bottom: 10px;
+}
+.mot{
+    margin-top: 50px;
+}
+.texts{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
