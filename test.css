@@ -8,7 +8,7 @@ body{
     bottom: none;
 }
 .container .left .image{
-    background-image: url("/photo.jpg");
+    background-image: url("photo.jpg");
     background-size: cover;
     width: 370px;
     height: 443px;
