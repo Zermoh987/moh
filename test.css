@@ -1,19 +1,18 @@
-body{
-    background-color: rgb(43, 41, 41);
-    margin: 50px;
-}
+
 .container{
     display: flex;
     background-color: white;
     bottom: none;
+    margin-left: 60px;
 }
 .container .left .image{
-    background-image: url("photo.jpg");
+    background-image: url("images.jpg");
     background-size: cover;
-    width: 370px;
-    height: 443px;
+    width: 330px;
+    height: 440px;
     position: absolute;
     margin-top: 40px;
+    border-radius: 200px 200px 0 0;
 }
 .text{
     margin-top: 50px;
@@ -23,32 +22,37 @@ body{
     margin-left: 70px;
 }
 .container .left{
-    margin-left: 70px;
+    margin-left: 10px;
 }
 input[type="button"]{
     height: 30px;
     width: 100px;
-    margin-top: 30px;
+    margin-top: 110px;
     border-radius: 12px;
-    margin-left: 680px;
+    margin-left: 700px;
     background-color: white;
     cursor: pointer;
+    position: absolute;
 }
-.right .h1{
-    font-size: 330px;
+.right .zac{
+    font-size: 350px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 120px;
+    margin-top: 80px;
 }
 table{
     margin-left: 600px;
     display: inline-block;
-    border-spacing: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 80%;
 }
 a{
     text-decoration: none;
     font-size: 20px;
     color: black;
+}
+table tr td a{
+    padding: 10px;
 }
 .right .texts .titre{
     font-size: 34px;
@@ -62,8 +66,9 @@ a{
 .left .texto{
     margin-bottom: 10px;
 }
-.mot{
-    margin-top: 50px;
+.style{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .texts{
     margin-top: 80px;
